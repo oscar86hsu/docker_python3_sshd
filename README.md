@@ -4,6 +4,9 @@ Dockerized SSH service, built on top of [official Python](https://hub.docker.com
 ## Image tags
 
 - oscar86hsu/docker_python3_sshd:3.8
+- oscar86hsu/docker_python3_sshd:3.7
+- oscar86hsu/docker_python3_sshd:3.6
+- oscar86hsu/docker_python3_sshd:2.7
 
 ## Installed packages
 
