@@ -9,11 +9,11 @@ Dockerized SSH service, built on top of [official Python](https://hub.docker.com
 
 Base:
 
--[Python3.8](https://github.com/docker-library/python/blob/0b1fb9529c79ea85b8c80ff3dd85a32a935b0346/3.8/buster/Dockerfile)
+- [Python3.8](https://github.com/docker-library/python/blob/0b1fb9529c79ea85b8c80ff3dd85a32a935b0346/3.8/buster/Dockerfile)
 
 Package:
 
--[openssh-server](https://packages.debian.org/zh-tw/jessie/openssh-server)
+- [openssh-server](https://packages.debian.org/zh-tw/jessie/openssh-server)
 
 Default Config:
 
