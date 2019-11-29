@@ -13,6 +13,9 @@ Dockerized SSH service, built on top of [official Python](https://hub.docker.com
 Base:
 
 - [Python3.8](https://github.com/docker-library/python/blob/0b1fb9529c79ea85b8c80ff3dd85a32a935b0346/3.8/buster/Dockerfile)
+- [Python3.7](https://github.com/docker-library/python/blob/0b1fb9529c79ea85b8c80ff3dd85a32a935b0346/3.7/buster/Dockerfile)
+- [Python3.6](https://github.com/docker-library/python/blob/0b1fb9529c79ea85b8c80ff3dd85a32a935b0346/3.6/buster/Dockerfile)
+- [Python2.7](https://github.com/docker-library/python/blob/0b1fb9529c79ea85b8c80ff3dd85a32a935b0346/2.7/buster/Dockerfile)
 
 Package:
 
