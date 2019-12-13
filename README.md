@@ -42,6 +42,7 @@ Using the image with the default password is dangerous. You should change your p
 - To not use password and use key instead:<br>
 ```
 docker exec python_sshd passwd -d root
+docker exec python_sshd sed -i 's/.*PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
 ssh-keygen -t rsa -f ./id_rsa -N ""
 docker cp id_rsa.pub python_sshd:/root/.ssh/authorized_keys
 docker exec python_sshd chown root:root /root/.ssh/authorized_keys
